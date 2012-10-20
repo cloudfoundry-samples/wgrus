@@ -14,6 +14,8 @@ more InventoryServices.java
 
     val shippingUrl = "wgrus-shipping.cloudfoundry.com"
 
+Deploy the apps:
+
     > cd store
     > mvn package
     > vmc push
