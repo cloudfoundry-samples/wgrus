@@ -7,9 +7,11 @@ This is a sample project that runs the Widgets and Gadgets store using both Spri
 Use the provided manifests to deploy the 3 apps.  If you need to customize the URL, you must modify the URL variables in the Store and Inventory apps:
 
 more StoreFront.java
+
     private static final String ORDER_URL = "http://wgrus-inventory.cloudfoundry.com/orders";
 
 more InventoryServices.java
+
     val shippingUrl = "wgrus-shipping.cloudfoundry.com"
 
     > cd store

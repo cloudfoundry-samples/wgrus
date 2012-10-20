@@ -5,6 +5,6 @@ In the "polyglot" example, the store front communicates with the Inventory and S
 
 The "akka" example has the Store communicating with a Remote Actor that processes ordering. The ordering actors register their IPs and ports with a shared Redis service for lookup.
 
-The Spring Integration example switches from the more brittle point-to-point communication to a pub/sub mechanism with RabbitMQ.  The Inventory and Shipping apps are standalone Spring apps.  
+The "spring-integration" example switches from the more brittle point-to-point communication to a pub/sub mechanism with RabbitMQ.  The Inventory and Shipping apps are standalone Spring apps.  
 
 See each example for deployment instructions.
